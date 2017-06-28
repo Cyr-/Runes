@@ -1,0 +1,36 @@
+{% for glyph in standardConditionGlyphs %}
+    <div class="glyph">
+        <h2>{{ glyph.name }}</h2>
+        <h3>"{{ glyph.word }}"</h3>
+        <h4>Standard Condition Glyph</h4>
+
+        <dl>
+            <dt>Thread Points:</dt>
+            <dd>{{ glyph.threadPoints }}</dd>
+            <dt>Conditions:</dt>
+            <dd>
+                {% for condition in glyph.conditions %}
+                    <p>
+                        {{ condition.type }}{% if not loop.last %},{% endif %}
+                    </p>
+                {% endfor %}
+            </dd>
+        </dl>
+
+        {% for condition in glyph.conditions %}
+        <button
+                class="add-standard-condition-glyph"
+                data-id="{{ glyph.id }}"
+                data-word="{{ glyph.word }}"
+                data-thread-points="{{ glyph.threadPoints }}"
+                data-condition-type-id="{{ condition.id }}"
+                data-condition-type="{{ condition.type }}"
+                data-initial-intensity="{{ glyph.initialIntensity }}"
+                data-additional-intensity="{{ glyph.additionalIntensity }}"
+                data-unit="{{ glyph.unit }}"
+        >
+            {{ condition.type }}
+        </button>
+        {% endfor %}
+    </div>
+{% endfor %}

@@ -1,0 +1,21 @@
+{% for glyph in limiterGlyphs %}
+    <div class="glyph">
+        <h2>{{ glyph.name }}</h2>
+        <h3>"{{ glyph.word }}"</h3>
+        <h4>Standard Damage Glyph</h4>
+
+        <dl>
+            <dt>Thread Points:</dt>
+            <dd>{{ glyph.threadPoints }}</dd>
+        </dl>
+
+        <button
+                class="add-limiter-glyph"
+                data-id="{{ glyph.id }}"
+                data-word="{{ glyph.word }}"
+                data-thread-points="{{ glyph.threadPoints }}"
+        >
+            {{ glyph.name }}
+        </button>
+    </div>
+{% endfor %}

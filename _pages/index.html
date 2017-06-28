@@ -18,7 +18,7 @@ permalink: /
 </div>
 
 <div class="glyphs">
-  {{ partial("glyph\standard_damage_glyphs") }}
-  {{ partial("glyph\standard_condition_glyphs") }}
-  {{ partial("glyph\limiter_glyphs") }}
+  {% include standard-damage-glyphs.html %}
+  {% include standard-condition-glyphs.html %}
+  {% include limiter-glyphs.html %}
 </div>
