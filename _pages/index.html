@@ -1,0 +1,24 @@
+---
+permalink: /
+---
+
+<script src="/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="/js/rune-builder.js" type="text/javascript"></script>
+
+<div id="rune">
+  Thread Points: <input id="thread-points" value="" disabled />
+  <br />
+  Phrase: <input id="words" value="" disabled />
+  <br />
+  Damage: <input id="damage-dice" value="" disabled />
+  <br />
+  Conditions: <input id="conditions" value="" disabled />
+  <br />
+  Status: <input id="status" value="" disabled />
+</div>
+
+<div class="glyphs">
+  {{ partial("glyph\standard_damage_glyphs") }}
+  {{ partial("glyph\standard_condition_glyphs") }}
+  {{ partial("glyph\limiter_glyphs") }}
+</div>
