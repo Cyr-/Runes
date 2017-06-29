@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Physicality",
+    "word": "Srah",
+    "threadPoints": 1,
+    "damageDie": "1d6",
+    "damageTypes": [
+      {
+        "type": "Slashing"
+      },
+      {
+        "type": "Bludgeoning"
+      },
+      {
+        "type": "Piercing"
+      }
+    ]
+  },
+  {
+    "name": "Raw Force",
+    "word": "Axae",
+    "threadPoints": 1,
+    "damageDie": "1d6",
+    "damageTypes": [
+      {
+        "type": "Force"
+      }
+    ]
+  },
+  {
+    "name": "Frostfire",
+    "word": "Vrae",
+    "threadPoints": 1,
+    "damageDie": "1d6",
+    "damageTypes": [
+      {
+        "type": "Fire"
+      },
+      {
+        "type": "Cold"
+      }
+    ]
+  },
+  {
+    "name": "Mindshatter",
+    "word": "Kek",
+    "threadPoints": 1,
+    "damageDie": "1d6",
+    "damageTypes": [
+      {
+        "type": "Psychic"
+      },
+      {
+        "type": "Thunder"
+      }
+    ]
+  },
+  {
+    "name": "Pure Light",
+    "word": "Loh",
+    "threadPoints": 1,
+    "damageDie": "1d6",
+    "damageTypes": [
+      {
+        "type": "Radiant"
+      },
+      {
+        "type": "Lightning"
+      }
+    ]
+  },
+  {
+    "name": "Abyssal Dark",
+    "word": "Hol",
+    "threadPoints": 1,
+    "damageDie": "1d6",
+    "damageTypes": [
+      {
+        "type": "Acid"
+      },
+      {
+        "type": "Necrotic"
+      }
+    ]
+  },
+]

@@ -1,4 +1,4 @@
-{% for glyph in standardDamageGlyphs %}
+{% for glyph in site.data.standardDamageGlyphs %}
     <div class="glyph">
         <h2>{{ glyph.name }}</h2>
         <h3>"{{ glyph.word }}"</h3>
@@ -9,14 +9,6 @@
             <dd>{{ glyph.threadPoints }}</dd>
             <dt>Damage Die:</dt>
             <dd>{{ glyph.damageDie }}</dd>
-            <dt>Damage Types:</dt>
-            <dd>
-                {% for damage in glyph.damageTypes %}
-                    <p>
-                        {{ damage.type }}{% if not loop.last %},{% endif %}
-                    </p>
-                {% endfor %}
-            </dd>
         </dl>
 
         {% for damage in glyph.damageTypes %}
@@ -34,33 +26,3 @@
         {% endfor %}
     </div>
 {% endfor %}
-
-<div class="glyph">
-    <h2>TEST</h2>
-    <h3>"TEST"</h3>
-    <h4>Standard Damage Glyph</h4>
-
-    <dl>
-        <dt>Thread Points:</dt>
-        <dd>1</dd>
-        <dt>Damage Die:</dt>
-        <dd>1d6</dd>
-        <dt>Damage Types:</dt>
-        <dd>
-                <p>
-                    Radiant
-                </p>
-        </dd>
-    </dl>
-        <button
-                class="add-standard-damage-glyph"
-                data-id="1"
-                data-word="TEST"
-                data-thread-points="1"
-                data-damage-type-id="1"
-                data-damage-type="Radiant"
-                data-damage-die="1d6"
-        >
-            Radiant
-        </button>
-</div>
