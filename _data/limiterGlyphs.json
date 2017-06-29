@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Spell Attack",
+    "word": "Samatra",
+    "threadPoints": 0.5,
+  },
+  {
+    "name": "Powerful Resistance",
+    "word": "Devanzae",
+    "threadPoints": 0.66,
+  },
+  {
+    "name": "Evasive Resistance",
+    "word": "Undeshar",
+    "threadPoints": 0.66,
+  },
+  {
+    "name": "Inherent Resistance",
+    "word": "Gravandi",
+    "threadPoints": 0.66,
+  },
+  {
+    "name": "Unstoppable",
+    "word": "Fluxan",
+    "threadPoints": 2,
+  },
+  {
+    "name": "Irresistable",
+    "word": "Vibrauz",
+    "threadPoints": 3,
+  },
+]
