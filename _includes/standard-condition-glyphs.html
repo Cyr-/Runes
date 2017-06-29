@@ -12,10 +12,8 @@
         {% for condition in glyph.conditions %}
         <button
                 class="add-standard-condition-glyph"
-                data-id="{{ glyph.id }}"
                 data-word="{{ glyph.word }}"
                 data-thread-points="{{ glyph.threadPoints }}"
-                data-condition-type-id="{{ condition.id }}"
                 data-condition-type="{{ condition.type }}"
                 data-initial-intensity="{{ glyph.initialIntensity }}"
                 data-additional-intensity="{{ glyph.additionalIntensity }}"
