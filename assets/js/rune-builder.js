@@ -10,10 +10,8 @@ $(document).ready(function () {
 
     $(".add-standard-damage-glyph").click(function () {
         var glyph = {
-            id: $(this).data("id"),
             word: $(this).data("word"),
             threadPoints: $(this).data("threadPoints"),
-            damageTypeId: $(this).data("damageTypeId"),
             damageType: $(this).data("damageType"),
             damageDie: $(this).data("damageDie")
         };
@@ -24,10 +22,8 @@ $(document).ready(function () {
 
     $(".add-standard-condition-glyph").click(function () {
         var glyph = {
-            id: $(this).data("id"),
             word: $(this).data("word"),
             threadPoints: $(this).data("threadPoints"),
-            conditionTypeId: $(this).data("conditionTypeId"),
             conditionType: $(this).data("conditionType"),
             initialIntensity: $(this).data("initialIntensity"),
             additionalIntensity: $(this).data("additionalIntensity"),
@@ -40,15 +36,12 @@ $(document).ready(function () {
 
     $(".add-standard-untyped-glyph").click(function () {
         var glyph = {
-            id: $(this).data("id"),
             word: $(this).data("word"),
             threadPoints: $(this).data("threadPoints"),
             applicableTimes: $(this).data("applicableTimes"),
             effect: $(this).data("effect"),
             modifiedArmorClass:  $(this).data("modifiedArmorClass"),
-            checkAdvantageId: $(this).data("checkAdvantageId"),
             checkAdvantage: $(this).data("checkAdvantage"),
-            resistanceId: $(this).data("resistanceId"),
             resistance: $(this).data("resistance"),
             difficultTerrain: $(this).data("difficultTerrain"),
             cessationMultiplier: $(this).data("cessationMultiplier")
@@ -60,7 +53,6 @@ $(document).ready(function () {
 
     $(".add-modifier-glyph").click(function () {
         var glyph = {
-            id: $(this).data("id"),
             word: $(this).data("word"),
             initialThreadPointMultiplier: $(this).data("initialThreadPointMultiplier"),
             multiplierType: $(this).data("multiplierType"),
@@ -73,7 +65,6 @@ $(document).ready(function () {
 
     $(".add-limiter-glyph").click(function () {
         var glyph = {
-            id: $(this).data("id"),
             word: $(this).data("word"),
             threadPoints: $(this).data("threadPoints"),
             initialThreadPointMultiplier: $(this).data("initialThreadPointMultiplier"),
@@ -81,7 +72,6 @@ $(document).ready(function () {
             applicableTimes: $(this).data("applicableTimes"),
             applicableTypes: $(this).data("applicableTypes"),
             effect: $(this).data("effect"),
-            savingThrowId: $(this).data("savingThrowId"),
             savingThrow: $(this).data("savingThrow")
         };
         rune.limiterGlyphs.push(glyph);
@@ -91,7 +81,6 @@ $(document).ready(function () {
 
     $(".add-control-glyph").click(function () {
         var glyph = {
-            id: $(this).data("id"),
             word: $(this).data("word")
         };
         rune.controlGlyphs.push(glyph);

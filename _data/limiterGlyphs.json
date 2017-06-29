@@ -2,31 +2,73 @@
   {
     "name": "Spell Attack",
     "word": "Samatra",
-    "threadPoints": 0.5,
+    "threadPoints": ,
+    "initialThreadPointMultiplier": 0.5,
+    "additionalThreadPointMultiplier": 1,
+    "applicableTimes": ,
+    "effect": ,
   },
   {
     "name": "Powerful Resistance",
     "word": "Devanzae",
-    "threadPoints": 0.66,
+    "threadPoints": ,
+    "initialThreadPointMultiplier": 0.66,
+    "additionalThreadPointMultiplier": 0.66,
+    "applicableTimes": 2,
+    "effect": ,
+    "savingThrows": [
+      {
+        "type": "Strength"
+      },
+      {
+        "type": "Intelligence"
+      }
+    ]
   },
   {
     "name": "Evasive Resistance",
     "word": "Undeshar",
-    "threadPoints": 0.66,
+    "threadPoints": ,
+    "initialThreadPointMultiplier": 0.66,
+    "additionalThreadPointMultiplier": 0.66,
+    "applicableTimes": 2,
+    "effect": ,
+    "savingThrows": [
+      {
+        "type": "Dexterity"
+      },
+      {
+        "type": "Wisdom"
+      }
+    ]
   },
   {
     "name": "Inherent Resistance",
     "word": "Gravandi",
-    "threadPoints": 0.66,
+    "threadPoints": ,
+    "initialThreadPointMultiplier": 0.66,
+    "additionalThreadPointMultiplier": 0.66,
+    "applicableTimes": 2,
+    "effect": ,
+    "savingThrows": [
+      {
+        "type": "Constitution"
+      },
+      {
+        "type": "Charisma"
+      }
+    ]
   },
   {
     "name": "Unstoppable",
     "word": "Fluxan",
     "threadPoints": 2,
+    "effect": ,
   },
   {
     "name": "Irresistable",
     "word": "Vibrauz",
     "threadPoints": 3,
+    "effect": ,
   },
 ]
