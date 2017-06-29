@@ -7,14 +7,6 @@
         <dl>
             <dt>Thread Points:</dt>
             <dd>{{ glyph.threadPoints }}</dd>
-            <dt>Conditions:</dt>
-            <dd>
-                {% for condition in glyph.conditions %}
-                    <p>
-                        {{ condition.type }}{% if not loop.last %},{% endif %}
-                    </p>
-                {% endfor %}
-            </dd>
         </dl>
 
         {% for condition in glyph.conditions %}

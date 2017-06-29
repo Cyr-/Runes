@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Blinding/Deafening",
+    "word": "Vex",
+    "threadPoints": 3,
+    "initialIntensity": 1,
+    "additionalIntensity": 1,
+    "unit": "rd",
+    "conditions": [
+      {
+        "type": "Blinded"
+      },
+      {
+        "type": "Deafened"
+      }
+    ]
+  },
+  {
+    "name": "Terror",
+    "word": "Rael",
+    "threadPoints": 4,
+    "initialIntensity": 1,
+    "additionalIntensity": 1,
+    "unit": "rd",
+    "conditions": [
+      {
+        "type": "Frightened"
+      }
+    ]
+  },
+  {
+    "name": "Charming",
+    "word": "Lae",
+    "threadPoints": 4,
+    "initialIntensity": 1,
+    "additionalIntensity": 1,
+    "unit": "rd",
+    "conditions": [
+      {
+        "type": "Charmed"
+      }
+    ]
+  },
+  {
+    "name": "Paralysis",
+    "word": "Ach",
+    "threadPoints": 6,
+    "initialIntensity": 1,
+    "additionalIntensity": 1,
+    "unit": "rd",
+    "conditions": [
+      {
+        "type": "Paralyzed"
+      }
+    ]
+  },
+  {
+    "name": "Restraint",
+    "word": "Bor",
+    "threadPoints": 4,
+    "initialIntensity": 1,
+    "additionalIntensity": 1,
+    "unit": "rd",
+    "conditions": [
+      {
+        "type": "Restrained"
+      }
+    ]
+  },
+  {
+    "name": "Pushing",
+    "word": "Vom",
+    "threadPoints": 2,
+    "initialIntensity": 10,
+    "additionalIntensity": 5,
+    "unit": "ft",
+    "conditions": [
+      {
+        "type": "Shoved"
+      }
+    ]
+  },
+  {
+    "name": "Launching",
+    "word": "Wosh",
+    "threadPoints": 2,
+    "initialIntensity": 10,
+    "additionalIntensity": 5,
+    "unit": "ft",
+    "conditions": [
+      {
+        "type": "Lifted"
+      }
+    ]
+  },
+]
